@@ -1,0 +1,177 @@
+@import url('https://fonts.cdnfonts.com/css/nintendo-ds-bios');
+
+body{
+    background-image: url("./emo24.png");
+}
+.bttmfloat {
+    position: fixed;
+    width: 110%;
+    bottom: 0px;
+}
+
+@font-face {
+    font-family: "Latchboy"; 
+    src: url("./fonts/Latchboy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ebola"; 
+    src: url("./fonts/ebola.ttf") format("truetype");
+}
+
+#myuu {
+position: absolute;
+top: 450px;
+left: 70px;
+z-index: 50;
+}
+
+html{
+ height: 100%; 
+}
+
+#container{
+  background-color: #000;
+  margin: 0 auto;
+  width: 1000px;
+  height: 580px;
+  margin-top: 30px;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+#border{
+  margin:0 auto;
+  width: 1076px;
+  height: 674px;
+ position: absolute;
+ top: -3px;
+ left: 146px;
+ z-index: -0;
+ pointer-events:none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  }
+  
+a:visited{
+  color: #fff;
+}
+
+a:hover{
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+width: 5px;
+}
+
+::-webkit-scrollbar-track {
+width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background-color: #fff;
+}
+
+#sidebarleft{
+  float: left;
+  width: 200px;
+  border: 1px solid #fff;
+  text-align: center;
+  background-color: #000;
+  height: 97.2%;
+  padding: 10px 5px 5px 5px;
+  background-image: url('xxxx');
+  color: #fff;
+  overflow-y: hidden;
+}
+
+
+#middle{
+  float: left;
+  width: 554px;
+  border: 1px solid #fff;
+  margin: 0px 5px 0px 5px;
+  text-align: center;
+  background-color: #000;
+  height: 98%;
+  padding: 5px;
+  background-image: url('xxx');
+}
+
+#sidebarright{
+  background-image: url('xxx');
+  float: left;
+  width: 200px;
+  border: 1px solid #fff;
+  text-align: center;
+  background-color: #000;
+  height: 97.2%;
+  padding: 10px 5px 5px 5px;
+  overflow-y: hidden;
+}
+
+#content{
+  background-color: #000;
+  border: 1px solid white;
+  margin: 0 auto;
+  height: 100%;
+  width: 95%;
+  padding: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#img {
+      float: left;
+      margin: 5px;
+    }
+
+#other{
+  background-color: #000;
+  border: 1px solid white;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+  height: 25%;
+  margin-top: 5px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+ul, li{
+  list-style-type: none;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.list{
+  margin: 0 auto;
+  width: 125px;
+}
+
+#miscbox{
+  text-align: center;
+  border: 1px solid white;
+  height:120px;
+  width: 145px;
+  margin: 0 auto;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#includedContent{
+  position: absolute;
+  top:397px;
+  right: 360px;
+  z-index: 1;
+}
